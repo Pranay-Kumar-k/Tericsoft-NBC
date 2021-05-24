@@ -1,0 +1,24 @@
+.table-row {
+    background-color: rgba(0, 0, 0, 0.54);
+    border-bottom: 4px solid #3e2485;
+    font-size: 1.5rem;
+    opacity: 0.87;
+    color: #ffffff;
+    padding: 0 0.625rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    height: 68px;
+
+    &.selected {
+        opacity: 10;
+        font-weight: 900;
+        cursor: pointer;
+      }
+}
+.spacer {
+    width: 7.5%;
+  }
+td {
+    padding-left: 2%;
+    
+}
